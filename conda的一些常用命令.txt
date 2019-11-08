@@ -14,5 +14,11 @@
   activate env_name
 8.退出某个环境
   deactivate env_name
+9.换回默认源
+  conda config --remove-key channels
+10.让终端打开不默认显示base
+   通过将auto_activate_base参数设置为false实现：
+   conda config --set auto_activate_base false
+
 
 
