@@ -1,0 +1,3 @@
+都是debian系统中的包管理工具，apt的推出时间更晚，apt是apt-get和apt-cache等包管理工具的子集，包含包管理必要的命令。
+
+但是apt使用更简单，而且有一些新的功能，推荐使用apt来代替apt-get
