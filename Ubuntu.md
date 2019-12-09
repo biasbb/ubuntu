@@ -31,7 +31,7 @@
 
   rm+文件名
 
-  rm+-r+目录名
+  rm+-r+目录名或者用-rf，r是递归的意思，f是force强制的意思
 
 - **创建文件和目录**
 
@@ -106,17 +106,3 @@ chmod+指定权限+文件或目录，指定权限可以使用权限符号也可�
 chown bias.bias src或chown bias:bias src
 
 把src的用户名和组名设置为bias.bias，冒号和点效果完全等效，当然如果只改用户名可以用chown bias src，同样只改用户组名可以用chown.bias src(或chown :bias src)
-
-#### 
-
-
-
-
-
-
-
-
-
-
-
- 
